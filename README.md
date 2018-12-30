@@ -1,2 +1,2 @@
-# FearMichael.github.io
-My Portfolio
+# bootstrap-portfolio
+Bootstrap framework portfolio website
