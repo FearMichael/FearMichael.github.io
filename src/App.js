@@ -14,9 +14,6 @@ function App() {
   return (
     <Router>
       <Navigation />
-      {/* <Route exact path="/" component={About}></Route> */}
-      {/* <Route path="/about" component={About}></Route> */}
-      {/* <Route path="/portfolio" component={Portfolio}></Route> */}
       <About />
       <Portfolio />
       <Footer />
