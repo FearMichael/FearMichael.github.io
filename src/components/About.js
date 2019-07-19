@@ -23,7 +23,7 @@ class About extends Component {
                                 <h1 className="white-text title">Full Stack Web Developer</h1>
                                 <a href="mailto:mtfear@hotmail.com"><button className="btn btn-large blue lighten-2"><i className="material-icons icon-left">email</i>Email Me</button></a>
                                 <hr className="line"></hr>
-                                <a href="https://www.linkedin.com/in/michael-fearnley/" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
+                                <a href="https://www.linkedin.com/in/michaelfearnley/" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
                                 <a href="https://github.com/FearMichael" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/github-logo.png" alt="github logo" /></a>
                             </div>
                         </div>

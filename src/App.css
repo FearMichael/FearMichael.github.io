@@ -25,6 +25,7 @@ div.portfolio-info:nth-child(odd) .toolsLine {
 a > i {
     pointer-events: none;
     margin-left: 1em;
+    touch-action: none;
 }
 
 .footerArrow  {
