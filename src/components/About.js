@@ -1,11 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import M from "materialize-css";
 
 
 class About extends Component {
+    constructor (props) {
+        super(props);
+        this.handleClick = props.toTop
+        this.scrollRef = createRef();
+    };
+   state = {
+        ref: createRef()
+    }
 
     componentDidMount() {
         M.AutoInit();
+        console.log(this.props);
     }
 
     render() {
@@ -30,7 +39,8 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="container">
-                    <h2 id="Portfolio" className="center-align">About<a href="#Home" className="center-align"><i className="small material-icons">arrow_upward</i></a></h2>
+                    <h2 id="Portfolio" ref={this.props.innerRef} className="center-align">About<i className="small material-icons" onClick={this.props.toTop}>arrow_upward</i></h2>
+                    
                 </div>
                 <hr className="line-blue"></hr>
                 <div>

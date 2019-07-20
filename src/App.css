@@ -22,10 +22,12 @@ div.portfolio-info:nth-child(odd) .toolsLine {
     background-color: whitesmoke;
 }
 
-a > i {
-    pointer-events: none;
+h2 > i {
     margin-left: 1em;
-    touch-action: none;
+}
+
+i {
+    cursor: pointer;
 }
 
 .footerArrow  {
