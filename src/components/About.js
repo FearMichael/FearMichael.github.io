@@ -3,18 +3,17 @@ import M from "materialize-css";
 
 
 class About extends Component {
-    constructor (props) {
+    constructor(props) {
         super(props);
         this.handleClick = props.toTop
         this.scrollRef = createRef();
     };
-   state = {
+    state = {
         ref: createRef()
     }
 
     componentDidMount() {
         M.AutoInit();
-        console.log(this.props);
     }
 
     render() {
@@ -40,7 +39,7 @@ class About extends Component {
                 </div>
                 <div className="container">
                     <h2 id="Portfolio" ref={this.props.innerRef} className="center-align">About<i className="small material-icons" onClick={this.props.toTop}>arrow_upward</i></h2>
-                    
+
                 </div>
                 <hr className="line-blue"></hr>
                 <div>
@@ -76,25 +75,25 @@ class About extends Component {
                             </div>
                             <div className="container skillsSection row center-align">
                                 <div className="col l6 m6 s12">
-                                        <h4>Personal</h4>
-                                        <ul>
-                                            <li>Collaborative</li>
-                                            <li>Team Player</li>
-                                            <li>Organized</li>
-                                            <li>Communication</li>
-                                        </ul>
+                                    <h4>Personal</h4>
+                                    <ul>
+                                        <li>Collaborative</li>
+                                        <li>Team Player</li>
+                                        <li>Organized</li>
+                                        <li>Communication</li>
+                                    </ul>
                                 </div>
                                 <div className="col l6 m6 s12 center-align">
-                                        <h4>Professional</h4>
-                                        <ul>
-                                            <li>HTML &amp; CSS</li>
-                                            <li>Bootstrap</li>
-                                            <li>Materialize</li>
-                                            <li>Javascript</li>
-                                            <li>React</li>
-                                            <li>Angular 7</li>
-                                            <li>MySQL</li>
-                                        </ul>
+                                    <h4>Professional</h4>
+                                    <ul>
+                                        <li>HTML &amp; CSS</li>
+                                        <li>Bootstrap</li>
+                                        <li>Materialize</li>
+                                        <li>Javascript</li>
+                                        <li>React</li>
+                                        <li>Angular 7</li>
+                                        <li>MySQL</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
