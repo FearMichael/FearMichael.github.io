@@ -2,7 +2,7 @@ const portfolioInfo = [
     {
         name: "Bench Strength",
         picture: "./images/benchstrength.png",
-        description: "A group curated app that provides Team Leaders the ability to assess employee skills and interests to build smarter, more invested teams. My primary responsibilities revolved around building front end components as well as integrating Github authentication via Auth0.",
+        description: "A group curated app that provides Team Leaders the ability to assess employee skills and interests to build smarter, more invested teams. My primary responsibilities revolved around building front end components as well as integrating Github authentication via Auth0.",
         tools: ["Angular 7", "Typescript", "Bootstrap", "Sequelize", "Auth0", "AWS", "Express API Server"],
         deployedLink: "http://ec2-3-80-218-219.compute-1.amazonaws.com:3000/",
 
@@ -10,7 +10,7 @@ const portfolioInfo = [
     {
         name: "Daily Dash",
         picture: "./images/dailydash.png",
-        description: "Ever been annoyed at needing to go to several different apps or websites to retrieve daily information? DailyDash, a team built application, consolidates all of that information into a personalized experience for you. I was responsible for authentication using Passport with a Google Provider along with the API server and data structures. I also resolved time displaying properly on the front end.",
+        description: "Ever been annoyed at needing to go several different apps or websites to retrieve daily information? DailyDash, a team built application, consolidates all of that information into a personalized experience for you. I was responsible for authentication using Passport with a Google Provider along with the API server and data structures. I also resolved time displaying properly on the front end.",
         tools: ["Sequelize", "Heroku", "Materialize", "Node.js", "Passportjs"],
         deployedLink: "http://dailydashboardproject2.herokuapp.com/",
 
@@ -18,7 +18,7 @@ const portfolioInfo = [
     {
         name: "A Night In",
         picture: "./images/aNightIn.jpg",
-        description: "This service, developed by a team that enjoys various types of entertainment, is designed to provide an easy user experience for finding a movie to watch alongside food to eat. I researched and integrated third-party API’s for data. I also connected the application to Firebase in order to store and display recent search results.",
+        description: "This service, developed by a team that enjoys various types of entertainment, is designed to provide an easy user experience for finding a movie to watch alongside food to eat. I researched and integrated third-party API’s for data. I also connected the application to Firebase in order to store and display recent search results.",
         tools: ["Movie and Food API's", "Github", "Materialize", "Firebase"],
         deployedLink: "https://anightout-1548896687179.firebaseapp.com/",
 

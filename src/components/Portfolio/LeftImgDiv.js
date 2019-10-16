@@ -9,7 +9,7 @@ function LeftImgDiv(props) {
             </div>
             <div className="container col l4 s12 pl center-align">
                 <h3>{props.portInfo.name}</h3>
-                <p>{props.portInfo.description}</p>
+                <p className="description">{props.portInfo.description}</p>
                 <p className="tools">Tools Used:</p>
                 <hr className="toolsLine"></hr>
                 <ul>
