@@ -31,8 +31,12 @@ class About extends Component {
                                 <h1 className="white-text title">Full Stack Web Developer</h1>
                                 <a href="mailto:mtfear@hotmail.com"><button className="btn btn-large blue lighten-2"><i className="material-icons icon-left">email</i>Email Me</button></a>
                                 <hr className="line"></hr>
-                                <a href="https://www.linkedin.com/in/michaelfearnley/" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
                                 <a href="https://github.com/FearMichael" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/github-logo.png" alt="github logo" /></a>
+                                <a href="https://www.linkedin.com/in/michaelfearnley/" target="_blank" rel="noopener noreferrer"><img className="logoimg" src="images/linkedin-logo.png" alt="linked in logo" /></a>
+                                <a href="./MichaelFearnleyDeveloperResume2019.pdf" target="_blank" rel="noopener noreferrer">
+                                    {/* file icon */}
+                                    <svg className="logoimg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4.01 2L4 22h16V8l-6-6H4.01zM13 9V3.5L18.5 9H13z" /></svg>
+                                </a>
                             </div>
                         </div>
                     </div>

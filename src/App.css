@@ -22,6 +22,10 @@ div.portfolio-info:nth-child(odd) .toolsLine {
     background-color: whitesmoke;
 }
 
+svg {
+    fill: white;
+}
+
 h2 > i {
     margin-left: 1em;
 }
@@ -140,6 +144,11 @@ div .sidenav {
     max-height: 80px;
     margin: 2rem;
 }
+svg.logoimg {
+    max-height: 80px;
+    max-width: 80px;
+    margin: 2rem;
+}
 
 .line {
     height: 0.15rem;
@@ -208,5 +217,14 @@ div .sidenav {
 @media only screen and (max-width: 550px) {
     a.brand-logo.center {
         font-size: 1rem;
+    }
+    .logoimg {
+        max-height: 50px;
+        margin: 1rem;
+    }
+    svg.logoimg {
+        width: 50px;
+        height: 50px;
+        margin:1rem;
     }
 }
