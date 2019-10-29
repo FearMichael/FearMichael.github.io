@@ -72,14 +72,17 @@ div.portfolio-info:nth-child(odd) {
     color: whitesmoke;
 }
 
-div.portfolio-info:nth-child(odd) > div > a {
+div.portfolio-info:nth-child(odd) > div > div > a {
     color: #64b5f6;
     background-color: whitesmoke;
+    margin: 1rem;
 }
 
-div.portfolio-info:nth-child(even) > div > a {
+div.portfolio-info:nth-child(even) > div > div > a {
     background-color: #64b5f6;
     color: whitesmoke;
+    margin: 1rem;
+
 }
 
  .portfolio-img {

@@ -17,7 +17,10 @@ function RightImgDiv(props) {
                         })
                     }
                 </ul>
-                <a href={props.portInfo.deployedLink} target="_blank" rel='noreferrer noopener' className="btn btn-lg">Check it out</a>
+                <div >
+                    <a href={props.portInfo.deployedLink} target="_blank" rel='noreferrer noopener' className="btn btn-lg">Check it out</a>
+                    <a href={props.portInfo.codeLink} target="_blank" rel='noreferrer noopener' className="btn btn-lg">View the Code</a>
+                </div>
             </div>
             <div className="container col l4 s12">
                 <img className="portfolio-img" src={props.portInfo.picture} alt={props.portInfo.name} />
